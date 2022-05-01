@@ -1,0 +1,16 @@
+
+#=====Provider Portal=====
+PrintUserEmailURL=https://jsonplaceholder.typicode.com/users/
+printValue=email
+
+GetUserPostsURL=https://jsonplaceholder.typicode.com/posts?userId=
+checkPostValue=id
+MinValue=1
+MaxValue=100
+AddPostURL=https://jsonplaceholder.typicode.com/posts
+
+
+#=====NewPostData=====
+NewPostTitle=New Post Title
+NewPostBody=New Post body for API Task
+

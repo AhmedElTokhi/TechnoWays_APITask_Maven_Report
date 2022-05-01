@@ -1,0 +1,1762 @@
+
+-------------------------------------------------------------------
+[2022-05-01 03:31:11] INFO   (TCs.API3TC ) -  Line 29:TC01_printUserEmail. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.impl.conn.BasicClientConnectionManager ) - Get connection for route {s}->https://jsonplaceholder.typicode.com:443. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.impl.conn.DefaultClientConnectionOperator ) - Connecting to jsonplaceholder.typicode.com:443. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.client.protocol.RequestAddCookies ) - CookieSpec selected: ignoreCookies. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.client.protocol.RequestAuthCache ) - Auth cache not set in the context. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.client.protocol.RequestTargetAuthentication ) - Target auth state: UNCHALLENGED. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.client.protocol.RequestProxyAuthentication ) - Proxy auth state: UNCHALLENGED. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.impl.client.DefaultHttpClient ) - Attempt 1 to execute request. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.impl.conn.DefaultClientConnection ) - Sending request: GET /users/6 HTTP/1.1. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  >> "GET /users/6 HTTP/1.1[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  >> "Accept: application/json[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  >> "Host: jsonplaceholder.typicode.com[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  >> "Connection: Keep-Alive[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  >> "Accept-Encoding: gzip,deflate[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  >> "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - >> GET /users/6 HTTP/1.1. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - >> Content-Type: application/json; charset=UTF-8. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - >> Accept: application/json. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - >> Host: jsonplaceholder.typicode.com. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - >> Connection: Keep-Alive. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - >> User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2). 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - >> Accept-Encoding: gzip,deflate. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "HTTP/1.1 200 OK[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "Date: Sun, 01 May 2022 01:31:13 GMT[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "Content-Type: application/json; charset=utf-8[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "Transfer-Encoding: chunked[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "Connection: keep-alive[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "X-Powered-By: Express[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Limit: 1000[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Remaining: 999[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Reset: 1650289960[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "Vary: Origin, Accept-Encoding[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "Access-Control-Allow-Credentials: true[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "Cache-Control: max-age=43200[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "Pragma: no-cache[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "Expires: -1[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "X-Content-Type-Options: nosniff[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "Etag: W/"21a-1wY7wF2vqUAj32FSyd4L99yHHc4"[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "Via: 1.1 vegur[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "CF-Cache-Status: HIT[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "Age: 25325[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=B5GPE4MB8hnZArt%2FURioTmXm23RrhtjYwongECErmBhLwJg1rdF6GSnsOgtJM%2BkRE2aGOO9dcYTc3qnMj58ZvCMzZfGnMFTmJMvQzjin0ZXNFSOtqJK6cdBgueNM%2BBaacOQEI19FULN%2B7C8X%2BPf0"}],"group":"cf-nel","max_age":604800}[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "Server: cloudflare[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "CF-RAY: 7044c1a069c2331d-CDG[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "Content-Encoding: gzip[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.impl.conn.DefaultClientConnection ) - Receiving response: HTTP/1.1 200 OK. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << HTTP/1.1 200 OK. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << Date: Sun, 01 May 2022 01:31:13 GMT. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << Content-Type: application/json; charset=utf-8. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << Transfer-Encoding: chunked. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << Connection: keep-alive. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << X-Powered-By: Express. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Limit: 1000. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Remaining: 999. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Reset: 1650289960. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << Vary: Origin, Accept-Encoding. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << Access-Control-Allow-Credentials: true. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << Cache-Control: max-age=43200. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << Pragma: no-cache. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << Expires: -1. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << X-Content-Type-Options: nosniff. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << Etag: W/"21a-1wY7wF2vqUAj32FSyd4L99yHHc4". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << Via: 1.1 vegur. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << CF-Cache-Status: HIT. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << Age: 25325. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=B5GPE4MB8hnZArt%2FURioTmXm23RrhtjYwongECErmBhLwJg1rdF6GSnsOgtJM%2BkRE2aGOO9dcYTc3qnMj58ZvCMzZfGnMFTmJMvQzjin0ZXNFSOtqJK6cdBgueNM%2BBaacOQEI19FULN%2B7C8X%2BPf0"}],"group":"cf-nel","max_age":604800}. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << Server: cloudflare. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << CF-RAY: 7044c1a069c2331d-CDG. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << Content-Encoding: gzip. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.headers ) - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.impl.client.DefaultHttpClient ) - Connection can be kept alive indefinitely. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder ) - Parsing response as: application/json; charset=utf-8. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "161[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]E[0x90][0xc1]n[0xdb]@[0xc]D[0xef][0xfe][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "b[0xcf][0x95][0x10]Urd[0xfb][0x94][0xc0][0xb9]5[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "[0xf8][0x3][0x2]jE[LV[0xa4][0xb0][0xbb]N[0xa2][0x4][0xfe][0xf7]b[0xd7]Uz#[0xf8]f[0xc0][0x19]~[0xad][0x0][0xc][0xf7]f[0x7][0xb7]?[0xd2](8[0x92][0xd9][0x81][0xf9][0xed]C[0x9][0xf]$[0xc2][0x1][0xe]v8;[0xe][0xd1]d[0xc5]9[0x90]_T[0x8f][0xa4][0x93][0xba]^[0x9f][0xf7][0xea]_[0xc9][0xcf]W[0x5][0x8d][0xc8].[0xe1]_[0xe8][0x1d][0xcd][0xcf][0xf]h[0x87][0xbb][0x17][0xc][0x13][0xf9][0x92][0xe5][0xa8]W[0x15][0xf6][0xbd][0xa7][0x10][0xcc][0xe][0xbe]V[0x0][0x0]&DO[0x14][0x93][0xef]I}G>*[0xec][0xbd][0x86][0xc0]r[0xca][0x8e]$9s[0xcc][0x87][0xef][0xa7]X[0xc2]v}[0xb3][0x0][0xcb]qN[0xfb][0x83][0x9e][0xe3][0x0][0xfb][0xc1]s[0x88][0xf3][0x2]?y[0xb2][0xda]g[0xdf][0xcf]z}[0xb3].[0xaa][0xba]n[0x17]x"[0xfd][0x8e][0x0]`[0x1c][0xe6][0x4]E[[0x95]M[0xb5]]T[0x9][0xc8])[0x81][0xb6]*[0xdb][0xa6][0xdd][0x98][0xbc][0xbe][0xac][0x0].[0xb9][0xcc]4[0xa8][0xe4][0x3]U[0xd1][0xb4]m[0xb1][0xad][0xd7][0xc5][0xa6]i7[0xf0]q[0xdb][0xd4][0xd7][0x90][0xe6][0x9d][0xba][0xf0]/[0xbd]:,[0xd5]_[[0x19][0xab][0xe3][0x84]2[0xff][0xff][0xc3]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "[0xf2][0xdc][0xbd]J[0xe0][0x9e][0x85][0x8a]G[0xb5][0xaf]#[0xca]wY[0x8c]v[0xf8]3x[0xc]Yw[0x98][0xc5][0xe]^[0x85][0x3][0xf5][0xd0]i[0x8c]:[0x16][0x8e][0x85][0x80]%[0x92]?[0xa2][0xa5][0xc5][0xd8][0xa5]o[0x1b]*H[0xb0]s[0x89][0x8b][0xbe]a[0xe4]7[0x2][0x9c]&[0xc7][0x16]#[0xab][0x84][0xd4][0xed][0xb2][0xba][0xfc][0x5][0xcb][0xe8][0x99][0x85][0x1a][0x2][0x0][0x0]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "0[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (org.apache.http.wire ) -  << "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:13] DEBUG  (io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder ) - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] INFO   (TCs.API3TC ) -  Line 32:response node: https://jsonplaceholder.typicode.com/users/6. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.impl.conn.BasicClientConnectionManager ) - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2f37f1f9. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.impl.conn.BasicClientConnectionManager ) - Connection can be kept alive indefinitely. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] INFO   (TCs.API3TC ) -  Line 37The User Email is: Karley_Dach@jasper.info
+------------------. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] INFO   (TCs.API3TC ) -  Line 53:TC02_GetUserPosts. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.impl.conn.BasicClientConnectionManager ) - Get connection for route {s}->https://jsonplaceholder.typicode.com:443. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.impl.conn.DefaultClientConnectionOperator ) - Connecting to jsonplaceholder.typicode.com:443. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.client.protocol.RequestAddCookies ) - CookieSpec selected: ignoreCookies. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.client.protocol.RequestAuthCache ) - Auth cache not set in the context. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.client.protocol.RequestTargetAuthentication ) - Target auth state: UNCHALLENGED. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.client.protocol.RequestProxyAuthentication ) - Proxy auth state: UNCHALLENGED. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.impl.client.DefaultHttpClient ) - Attempt 1 to execute request. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.impl.conn.DefaultClientConnection ) - Sending request: GET /posts?userId=6 HTTP/1.1. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.wire ) -  >> "GET /posts?userId=6 HTTP/1.1[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.wire ) -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.wire ) -  >> "Accept: application/json[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.wire ) -  >> "Host: jsonplaceholder.typicode.com[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.wire ) -  >> "Connection: Keep-Alive[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.wire ) -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.wire ) -  >> "Accept-Encoding: gzip,deflate[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.wire ) -  >> "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.headers ) - >> GET /posts?userId=6 HTTP/1.1. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.headers ) - >> Content-Type: application/json; charset=UTF-8. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.headers ) - >> Accept: application/json. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.headers ) - >> Host: jsonplaceholder.typicode.com. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.headers ) - >> Connection: Keep-Alive. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.headers ) - >> User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2). 
+-------------------------------------------------------------------
+[2022-05-01 03:31:14] DEBUG  (org.apache.http.headers ) - >> Accept-Encoding: gzip,deflate. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "HTTP/1.1 200 OK[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Date: Sun, 01 May 2022 01:31:14 GMT[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Content-Type: application/json; charset=utf-8[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Transfer-Encoding: chunked[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Connection: keep-alive[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "X-Powered-By: Express[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Limit: 1000[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Remaining: 999[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Reset: 1651368684[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Vary: Origin, Accept-Encoding[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Access-Control-Allow-Credentials: true[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Cache-Control: max-age=43200[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Pragma: no-cache[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Expires: -1[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "X-Content-Type-Options: nosniff[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Etag: W/"a53-f5EcYsRsutmzmVzAo6fwJx/PeWU"[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Content-Encoding: gzip[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Via: 1.1 vegur[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "CF-Cache-Status: MISS[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=nEGEFbh7VHkDf5b50MO%2B8jYIaMka1uQpl4oAcTVhfa7wQmShVCRV1keh4aLRmia3%2F%2BBMDIWOKY00KfK%2Bd1gR2wYhqve6qmEakm0lvM%2BtP5PsCex6U5IHqDteO2uLT4vi3Af5nSjTvG55Lm%2FeNds4"}],"group":"cf-nel","max_age":604800}[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Server: cloudflare[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "CF-RAY: 7044c1a65c043b8b-CDG[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.impl.conn.DefaultClientConnection ) - Receiving response: HTTP/1.1 200 OK. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << HTTP/1.1 200 OK. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Date: Sun, 01 May 2022 01:31:14 GMT. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Content-Type: application/json; charset=utf-8. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Transfer-Encoding: chunked. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Connection: keep-alive. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << X-Powered-By: Express. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Limit: 1000. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Remaining: 999. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Reset: 1651368684. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Vary: Origin, Accept-Encoding. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Access-Control-Allow-Credentials: true. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Cache-Control: max-age=43200. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Pragma: no-cache. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Expires: -1. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << X-Content-Type-Options: nosniff. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Etag: W/"a53-f5EcYsRsutmzmVzAo6fwJx/PeWU". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Content-Encoding: gzip. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Via: 1.1 vegur. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << CF-Cache-Status: MISS. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=nEGEFbh7VHkDf5b50MO%2B8jYIaMka1uQpl4oAcTVhfa7wQmShVCRV1keh4aLRmia3%2F%2BBMDIWOKY00KfK%2Bd1gR2wYhqve6qmEakm0lvM%2BtP5PsCex6U5IHqDteO2uLT4vi3Af5nSjTvG55Lm%2FeNds4"}],"group":"cf-nel","max_age":604800}. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Server: cloudflare. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << CF-RAY: 7044c1a65c043b8b-CDG. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.impl.client.DefaultHttpClient ) - Connection can be kept alive indefinitely. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder ) - Parsing response as: application/json; charset=utf-8. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "3de[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d]V[0xcb][0x92][0xe3]6[0xc][0xbc][0xef]W[0xb0]|[0xde]C^;y[0xfc][0xc1]~C[0x9c][0x3]L[0xc2]cTI[0xa4][0x86][0xf][0xd7][0xa4]R[0xf9][0xf7]4@[0xca][0xd6][0xc8]S[0x15][0x1f]4cQ[0x10][0x89]n4[0x1a][0xfa][0xf3][0x8b]s[0xff][0xe0]r[0xee][0xd0][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "[0xe7][0xef][0xe1][0xf0][0x87]{[0xf9][0xda][0x17]Do[0xbe][0xfd]8[0xee][0xaa][0xd4][0x89][0xb1]p(ij[0x95][0x1c]M[0xf2][0xd6]hv[0xb4]p[0x16][0xfc][0xf7])[0x16][0xc6]Jm[0xd9][0xc9]4%[0xf7][0xd6][0xa4][0xb8]+[0x82][0x97]J[0xe5]0v9[0xa5][0xf0][0xb7]m[0xd2]bu!M)sq[0xd4][0xc6]o9[0xb5]r[0x8c]}[0xf9][0xbe][0xb2]nR[0x11]Zy^R&[0xc7]u[0x8d][0x9b][0xdf][0x1a][0xe3][0x16][0xc7][0xa5]c[0xf4][\r][0x9][0x15][0xcd][0xc8]6.R{^[0xbe][0xb2][0xe6]5[0xde]8 [0x97][0xbf][0xfe]/[0xf2][0x9f][0xf6][0xc8][0x81][0xc8]q[0x94]Y[0x8f][0x1b]p[0x1][0x3][0xfb][0xe2][0x1][0x8][0xc1][0x13][0xf9][0x80][0xba][0xb2][0xde][0x2]A[0xa0]yO[0x80][0xb4]R[0x93][0xe3]R[0xef]![0xee][0xdc]^[0x9][0xb7]T[0xf4][0xf]g[0xaa]nN[0x13]B[0x84][0xc0][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "[0xf5][0xa3]A[0x95][0xa2]"[0xef][[0xa1][0x19][0xe4][0xe8][0xea]1v^[0x8c][0xad][0xbe]s[0xf][0x88]U[0xc0][0xc8][0x92][0xd3]U[0x2][0x83]q[0xca][0xfe]"". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "[0x15]t[0x80][0xab]QG.[0x85]][0xe6]%[0xf3][0x85]c[0x0]s[0x96][0x91][0x9b][0xe8][0x94]r{[0x96][0xaa][0x9f][0xf7]T5+H[0xaf]l[0xf3][0xa2][0x89]B0[0x8f]:[0x98][0x5][0xe9][0x93][0xbb]P[0xb6]<[0x89][0xb][0xf7][0x9c][0x19]Wf]51[0xf5][0xca][0x1d][0xa3][0xb2][0x83]"[0xbc]s[0xf6][0x2][0x82]%E^[0xe3]"[0x81][0x7][0x90][0x90][0x87][0xf4]"[0xab]2[0xba],6[0xda][0xc4][0x89]H[0xc6][0xf6][0xd3][0xb8][0x80][0xf7][0xaf][0x8a][0x1a][0x9b]A0*[0xcb][0x98]"NX&[0xf1][0xe0][0x0]l[0xcf][0xa2]R[0xe7]'[0xa9][0xf8][0xe5][0xa1]_[0xb4]\wM[0xca][0x82][0xba]9[0xbe][0xa2]n[0x90]Q[\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "[0x92][0xec]@[0x95][0xd0][0x9e][0x9c][0x9a][0xaa]5V[0xd6][0xd2]"gy[0x8d]R[0x90]O[0x82][0x1c][0xae][0xc8][0x98]WA[0xab]*[0x92][0xf7][0xc4][0x1e]([0xee][0xda]8F~[0x7][0xb8][0x9][0x9][0x4][0x10][0x9b][0x1][0xe]KuO[0x1f][0xe0]''[0xd1]KP[0xf4]8.C[0xbc][0xa2][0xda][0xc3][0x9b][0xc8][0xea]9[0xdc][0xdf]>[0xc3][0x8d][0xc3][0xef][0xcd]`}[0xa3]X'9[0xe1][0xc8]=[0xda][0xc0]'[0xd1][0x1a][0xf0][0xbb][0xe7][0x5][0x95]B[0x99][0xc9][0x81][0xb6]3g[0x8][0x13][0xf][0xba]H[0xfa][0xcb].!ET[0x96]S[0xd9][0xf4][0x82][0xb6][0xbf]5[0x91]v[0x9]-[0x2]-[0x99][0xb6][[0x10][0x8a][0x81][0xd8][0xd0][0xe3][0xd9][\r]l[0x9a][0xc1][0xe8][0xad][0xcb][0xf0]<[0xca]E&[\r]Q[0xfd][0xa1]8[0xf5]I[0xf4]/[0x9f]z[0x5][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "_Wu[0xb2]G[0xa7][0x19][0xe9]h[0xd2]=v[0xed][0x13][0xf5][0x82][0x9e][0xcf][0xf0]Edc[0x12][0xee][0x1b]@[0xc8]A[0x19][0xe9]w[0xbd][0xaa][0xb][0xc1]zU[0xd4]'&[0x95][0xc3][0x8d]:[0x3]zo[0xfb][0xd5][0x85]o[0xc5][0xd5][0x96][0x18][0xaa][0xea][0xac]~4[0x80][0xd5][0x98]q[0xc8][0xab]r[0xff]$[0x9][0xbf]>H[0x80][0x83][0xa3][0x93]![0xc3][0xf5][0x0]z[0x3][0xe0][0x83][0x9d]2u[0xc0][0xda][0x9c][0xda][0xf2][0xdd]''ja[0x18][0xda][0xb0][0xae][0xbb][0xb2]4J\[0x9b]&2[0x91]![0xdc][0x18]P=[0xdc][0xb0][0xaf][0xd1][0x1d]-#[0xb6]g[0xf5][0x1c][0xb6][0xdf][0xf6][0xd8]6[0xdb][0xa1][0xaa]Z[0xa7][0x95]5[0x94]P[0xfa]D[0x82]W[0xed]Ak[0xdf][0xd3][0xbc]MF[0xbd][0xde]Q[0x90]E[0x8a][0x17]'[0xc1]2[0x97][0xd0][0x87][0x8a][0xe9];[0xe8]n[0xa3][0xd5]1[0x8][0xc6][0xe0]U^[0xec](3-[\r][0x94]yaH[0xd6]1<0#0[0xdc][0xcd][0xcb][0xf5]s[0x9f][0x4][0xfb][0xfb]gj[0xf6]i[0x9e][0xd1][0x11][0xc3]:u8Qw4[0x83][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "%![0xe7][0xcd][0xd4][0xd9][0x3]G'[0x97]E[0xbc][0x98][0xcf]vvf[0xd5]3[0xa4][0xf]g[0xd8][0xcc]/u[0x88][0x95][0x1e][[0xc0][0xe6][0xc7]8[0x14]NC[0x1c][0xe9]|[0xd6][0xbd][0xd0]V m[0xfb]-Q[0x1a][0x16][0x16][0xd9]h^?[0x15][0xfa]l[0xbe]Q[0xf8][0xdb]t[0xb1]q[0xcb][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "[0x6][0xe6]j[0xd4]_[0xc4][0xab][0x1][0xb4]zC[0x8c]a[0xa0][0xbc][0x92]1[0xfd][0x1c][0x85]/?[0xec])[0xdc][0xce][0xa0]e"[0xf]<[0xa3][0xdd][0x95][0xbc]QQ[0xa1]]'[0xc2][0xcd][0xcc]F[0xd7][0x1]u[0xc6][0x8b][0x99][0x1f]:i[0xf3][0xc9][0xa3]d[0xa0][0xe7][0xa8][0x94]6c[0x17]R[0xac]*[0x0]Cb[0xb6][0xd1][0x9b][0xc5][0xe6][0xbe]%[0x80]ar[0xfb]^[0xe1][0xda][\r]t[0xeb][0xbb]+[0x93][0xc7]h[0xa3]8[0xf7][0xb9][0xe1]hVS[0xe3][0x1a]@[0x8c][0x99]/[0xfd][0x7]qH}[0x7]S[\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "[0x0][0x0]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "0[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder ) - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] INFO   (TCs.API3TC ) -  Line 56:response node: https://jsonplaceholder.typicode.com/posts?userId=6. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.impl.conn.BasicClientConnectionManager ) - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1b410308. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.impl.conn.BasicClientConnectionManager ) - Connection can be kept alive indefinitely. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] INFO   (TCs.API3TC ) -  Line 61:The user posts list size: 10. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] INFO   (TCs.API3TC ) -  Line 74:list value is: 51. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] INFO   (TCs.API3TC ) -  Line 74:list value is: 52. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] INFO   (TCs.API3TC ) -  Line 74:list value is: 53. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] INFO   (TCs.API3TC ) -  Line 74:list value is: 54. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] INFO   (TCs.API3TC ) -  Line 74:list value is: 55. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] INFO   (TCs.API3TC ) -  Line 74:list value is: 56. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] INFO   (TCs.API3TC ) -  Line 74:list value is: 57. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] INFO   (TCs.API3TC ) -  Line 74:list value is: 58. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] INFO   (TCs.API3TC ) -  Line 74:list value is: 59. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] INFO   (TCs.API3TC ) -  Line 74:list value is: 60. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] INFO   (TCs.API3TC ) -  Line 79:All user posts ids in 1 - 100. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] INFO   (TCs.API3TC ) -  Line 95:TC02_GetUserPosts. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] INFO   (TCs.API3TC ) -  Line 103:The new post parameter is: {"Id":61,"title":"New Post Title","body":"New Post body for API Task","userId":6}. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.impl.conn.BasicClientConnectionManager ) - Get connection for route {s}->https://jsonplaceholder.typicode.com:443. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.impl.conn.DefaultClientConnectionOperator ) - Connecting to jsonplaceholder.typicode.com:443. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.client.protocol.RequestAddCookies ) - CookieSpec selected: ignoreCookies. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.client.protocol.RequestAuthCache ) - Auth cache not set in the context. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.client.protocol.RequestTargetAuthentication ) - Target auth state: UNCHALLENGED. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.client.protocol.RequestProxyAuthentication ) - Proxy auth state: UNCHALLENGED. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.impl.client.DefaultHttpClient ) - Attempt 1 to execute request. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.impl.conn.DefaultClientConnection ) - Sending request: POST /posts HTTP/1.1. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  >> "POST /posts HTTP/1.1[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  >> "Accept: */*[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  >> "Content-Length: 81[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  >> "Host: jsonplaceholder.typicode.com[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  >> "Connection: Keep-Alive[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  >> "Accept-Encoding: gzip,deflate[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  >> "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - >> POST /posts HTTP/1.1. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - >> Accept: */*. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - >> Content-Type: text/plain; charset=ISO-8859-1. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - >> Content-Length: 81. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - >> Host: jsonplaceholder.typicode.com. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - >> Connection: Keep-Alive. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - >> User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2). 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - >> Accept-Encoding: gzip,deflate. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  >> "{"Id":61,"title":"New Post Title","body":"New Post body for API Task","userId":6}". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "HTTP/1.1 201 Created[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Date: Sun, 01 May 2022 01:31:14 GMT[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Content-Type: application/json; charset=utf-8[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Content-Length: 15[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Connection: keep-alive[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "X-Powered-By: Express[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Limit: 1000[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Remaining: 998[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Reset: 1651368684[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Access-Control-Allow-Credentials: true[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Cache-Control: no-cache[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Pragma: no-cache[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Expires: -1[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Access-Control-Expose-Headers: Location[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Location: http://jsonplaceholder.typicode.com/posts/101[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "X-Content-Type-Options: nosniff[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Etag: W/"f-4jjw4Y8q22Yv1PV9m28FczJgjzk"[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Via: 1.1 vegur[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "CF-Cache-Status: DYNAMIC[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rawBWt2x0LrQgCZA628hA%2FQBS6C%2BvaTkuD4XHYfGMiOtx%2BSemVZbAwmSlw5IzcJzh5COckUyThQAxlObgrHl65vPZLOOjt42NlO%2F07PXc5Hce9YtAntVWcgvjlZHIU1ox%2FXSRgFRSs9HL48DoL95"}],"group":"cf-nel","max_age":604800}[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "Server: cloudflare[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "CF-RAY: 7044c1a97ee2400d-CDG[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.wire ) -  << "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.impl.conn.DefaultClientConnection ) - Receiving response: HTTP/1.1 201 Created. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << HTTP/1.1 201 Created. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Date: Sun, 01 May 2022 01:31:14 GMT. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Content-Type: application/json; charset=utf-8. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Content-Length: 15. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Connection: keep-alive. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << X-Powered-By: Express. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Limit: 1000. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Remaining: 998. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Reset: 1651368684. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Vary: Origin, X-HTTP-Method-Override, Accept-Encoding. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Access-Control-Allow-Credentials: true. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Cache-Control: no-cache. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Pragma: no-cache. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Expires: -1. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Access-Control-Expose-Headers: Location. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Location: http://jsonplaceholder.typicode.com/posts/101. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << X-Content-Type-Options: nosniff. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Etag: W/"f-4jjw4Y8q22Yv1PV9m28FczJgjzk". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Via: 1.1 vegur. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << CF-Cache-Status: DYNAMIC. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rawBWt2x0LrQgCZA628hA%2FQBS6C%2BvaTkuD4XHYfGMiOtx%2BSemVZbAwmSlw5IzcJzh5COckUyThQAxlObgrHl65vPZLOOjt42NlO%2F07PXc5Hce9YtAntVWcgvjlZHIU1ox%2FXSRgFRSs9HL48DoL95"}],"group":"cf-nel","max_age":604800}. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << Server: cloudflare. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << CF-RAY: 7044c1a97ee2400d-CDG. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.headers ) - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (org.apache.http.impl.client.DefaultHttpClient ) - Connection can be kept alive indefinitely. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder ) - Parsing response as: application/json; charset=utf-8. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder ) - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] INFO   (TCs.API3TC ) -  Line 107:The new post done successfully. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (freemarker.cache ) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (freemarker.cache ) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (freemarker.cache ) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (freemarker.cache ) - TemplateLoader.findTemplateSource("Extent.ftl"): Found. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:15] DEBUG  (freemarker.cache ) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ahmed/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl". 
+-------------------------------------------------------------------
+[2022-05-01 03:31:16] DEBUG  (freemarker.cache ) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:16] DEBUG  (freemarker.cache ) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:16] DEBUG  (freemarker.cache ) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:16] DEBUG  (freemarker.cache ) - TemplateLoader.findTemplateSource("Extent.ftl"): Found. 
+-------------------------------------------------------------------
+[2022-05-01 03:31:16] DEBUG  (freemarker.cache ) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ahmed/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:18] INFO   (TCs.API3TC ) -  Line 29:TC01_printUserEmail. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.impl.conn.BasicClientConnectionManager ) - Get connection for route {s}->https://jsonplaceholder.typicode.com:443. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.impl.conn.DefaultClientConnectionOperator ) - Connecting to jsonplaceholder.typicode.com:443. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.client.protocol.RequestAddCookies ) - CookieSpec selected: ignoreCookies. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.client.protocol.RequestAuthCache ) - Auth cache not set in the context. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.client.protocol.RequestTargetAuthentication ) - Target auth state: UNCHALLENGED. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.client.protocol.RequestProxyAuthentication ) - Proxy auth state: UNCHALLENGED. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.impl.client.DefaultHttpClient ) - Attempt 1 to execute request. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.impl.conn.DefaultClientConnection ) - Sending request: GET /users/3 HTTP/1.1. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  >> "GET /users/3 HTTP/1.1[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  >> "Accept: application/json[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  >> "Host: jsonplaceholder.typicode.com[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  >> "Connection: Keep-Alive[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  >> "Accept-Encoding: gzip,deflate[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  >> "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - >> GET /users/3 HTTP/1.1. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - >> Content-Type: application/json; charset=UTF-8. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - >> Accept: application/json. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - >> Host: jsonplaceholder.typicode.com. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - >> Connection: Keep-Alive. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - >> User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2). 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - >> Accept-Encoding: gzip,deflate. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "HTTP/1.1 200 OK[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "Date: Sun, 01 May 2022 04:29:21 GMT[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "Content-Type: application/json; charset=utf-8[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "Transfer-Encoding: chunked[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "Connection: keep-alive[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "X-Powered-By: Express[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Limit: 1000[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Remaining: 999[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Reset: 1644972402[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "Vary: Origin, Accept-Encoding[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "Access-Control-Allow-Credentials: true[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "Cache-Control: max-age=43200[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "Pragma: no-cache[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "Expires: -1[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "X-Content-Type-Options: nosniff[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "Etag: W/"208-uuwhfwQMzFzbJr9Pg6DKXae0SXA"[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "Via: 1.1 vegur[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "CF-Cache-Status: HIT[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "Age: 1377[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=V2FlNnmiZeR69von6Ze1LvFLSc60pCVxYXB76R9rzajvBokosHlBsihDSOfyF5GZrqj0cJlcP9xJrXi8Ozk%2B2qjmv%2FxIUtIiVHJZWpt5EiaiL3S3yaJVGljFzmD7%2FW%2BjFrebr8ASDsrE46tLR%2FL0"}],"group":"cf-nel","max_age":604800}[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "Server: cloudflare[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "CF-RAY: 7045c68e5fbd3bb0-CDG[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "Content-Encoding: gzip[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.wire ) -  << "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.impl.conn.DefaultClientConnection ) - Receiving response: HTTP/1.1 200 OK. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << HTTP/1.1 200 OK. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << Date: Sun, 01 May 2022 04:29:21 GMT. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << Content-Type: application/json; charset=utf-8. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << Transfer-Encoding: chunked. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << Connection: keep-alive. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << X-Powered-By: Express. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Limit: 1000. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Remaining: 999. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Reset: 1644972402. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << Vary: Origin, Accept-Encoding. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << Access-Control-Allow-Credentials: true. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << Cache-Control: max-age=43200. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << Pragma: no-cache. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << Expires: -1. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << X-Content-Type-Options: nosniff. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << Etag: W/"208-uuwhfwQMzFzbJr9Pg6DKXae0SXA". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << Via: 1.1 vegur. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << CF-Cache-Status: HIT. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << Age: 1377. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=V2FlNnmiZeR69von6Ze1LvFLSc60pCVxYXB76R9rzajvBokosHlBsihDSOfyF5GZrqj0cJlcP9xJrXi8Ozk%2B2qjmv%2FxIUtIiVHJZWpt5EiaiL3S3yaJVGljFzmD7%2FW%2BjFrebr8ASDsrE46tLR%2FL0"}],"group":"cf-nel","max_age":604800}. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << Server: cloudflare. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << CF-RAY: 7045c68e5fbd3bb0-CDG. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << Content-Encoding: gzip. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.headers ) - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:21] DEBUG  (org.apache.http.impl.client.DefaultHttpClient ) - Connection can be kept alive indefinitely. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder ) - Parsing response as: application/json; charset=utf-8. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.wire ) -  << "14a[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.wire ) -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]E[0x90][0xcb]n[0x83]0[0x10]E[0xf7]|[0xc5][0xc8][0xeb][0x82]Bx[0xe4][0xb1][0xaa][0xfa]Z[0xb4]jU[0xb5]_0[0x98][0x9]X[0x82]1[0xb2]M[0xdb]$[0xe2][0xdf]+[0x9b][0x90][0xac]<[0x9a]s[0xaf]|[0xe7][0x9e]#[0x0][0xa1]j[0xb1][0x87][0xec][0xce][0x8f][0x8c]=[0x89]=[0x88][0xc7][0x8e]zb[0xa7][0x98][0xe0][0x1]G[0xd9][0x8a]@GKfQ|c[0x8f][0xec]Z[0x9c][0x9][0xf5][0xa8]:[0xbf][0xfe]@[0xd7]"[0xdf][0x1f][0xc9][0x12]+L[0x98][0xdc],[0xc0][0xba]6d[0xad][0xd8][0xc3]9[0x2][0x0][0x10][0xd6][0x19]"[0xe7]-Ozl:[0xb4][0xf0][0xfc][0xe7][0x88][0xad][0xd2][0x1c][0x1c]^2*7[0xff][0xe5][0x7][0xd8][0xe6][0x9b][0x85]H[0xe5][0x8e][0x1e][0xbc][0xcb]7[0xe2][0x93][0xa2][0x16][0xe8]j;[0xa9]A[0xea]:[0x18][0x8b]][0xb1][[0xc5]yZ\[0x9d][\r][0xe9]k[0x6][0x0][0xd1]a[0x88][0x10][0x97][0xdb][0xa4]LW[0xeb][0x8b][0xca][0x3]n[0x2][0xc8]7[0xc9][0xaa],2[0x11][0xf6]S[0x4]0[0x85]s[0x86]Vs[0xf8]![0x8d][0xf3]2[0x8b][0xd3]u[0x16][0xe7][0xf9]%[0x9f][0xf8][0xa5][0xca]^[0x92][0x1b][0xec][0x95][0xd1][0x89][0xe2][0x83][0x9e][0x99][0xd4][0xfd][0x80]|[0xbc][0xf5][0xb0][0xf4][0xf9][0xa5]{lF2[0x18][0xbf][0xa2][0xd4][0x95][0xbd][0xd5] [0xd1][0xc9][0xf6][0xb3]5h[0x83]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.wire ) -  << "[0xf0][0x5]%[0x81][0xd3]p[0xf0]o[0xa5][0xe][0xa3][0x91][0xe8][0xa8][0x6][0xc5][0x8e][0x8c]_.[0xbe][0xca][0xb7]-(&[0xc6][0xaa]#[0xb0][0xce][0xa0][0xa3]FI[0xc0]a[0xe8][0x94]D[0xa7]4[[0xd8][0x14]M[0xff][0x19][0xaf][0x8a][0x92][0x8][0x2][0x0][0x0]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.wire ) -  << "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.wire ) -  << "0[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.wire ) -  << "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder ) - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] INFO   (TCs.API3TC ) -  Line 32:response node: https://jsonplaceholder.typicode.com/users/3. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.impl.conn.BasicClientConnectionManager ) - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2f37f1f9. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.impl.conn.BasicClientConnectionManager ) - Connection can be kept alive indefinitely. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] INFO   (TCs.API3TC ) -  Line 37The User Email is: Nathan@yesenia.net
+------------------. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] INFO   (TCs.API3TC ) -  Line 53:TC02_GetUserPosts. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.impl.conn.BasicClientConnectionManager ) - Get connection for route {s}->https://jsonplaceholder.typicode.com:443. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.impl.conn.DefaultClientConnectionOperator ) - Connecting to jsonplaceholder.typicode.com:443. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.client.protocol.RequestAddCookies ) - CookieSpec selected: ignoreCookies. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.client.protocol.RequestAuthCache ) - Auth cache not set in the context. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.client.protocol.RequestTargetAuthentication ) - Target auth state: UNCHALLENGED. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.client.protocol.RequestProxyAuthentication ) - Proxy auth state: UNCHALLENGED. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.impl.client.DefaultHttpClient ) - Attempt 1 to execute request. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.impl.conn.DefaultClientConnection ) - Sending request: GET /posts?userId=3 HTTP/1.1. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.wire ) -  >> "GET /posts?userId=3 HTTP/1.1[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.wire ) -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.wire ) -  >> "Accept: application/json[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.wire ) -  >> "Host: jsonplaceholder.typicode.com[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.wire ) -  >> "Connection: Keep-Alive[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.wire ) -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.wire ) -  >> "Accept-Encoding: gzip,deflate[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.wire ) -  >> "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.headers ) - >> GET /posts?userId=3 HTTP/1.1. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.headers ) - >> Content-Type: application/json; charset=UTF-8. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.headers ) - >> Accept: application/json. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.headers ) - >> Host: jsonplaceholder.typicode.com. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.headers ) - >> Connection: Keep-Alive. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.headers ) - >> User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2). 
+-------------------------------------------------------------------
+[2022-05-01 06:29:22] DEBUG  (org.apache.http.headers ) - >> Accept-Encoding: gzip,deflate. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "HTTP/1.1 200 OK[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Date: Sun, 01 May 2022 04:29:22 GMT[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Content-Type: application/json; charset=utf-8[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Transfer-Encoding: chunked[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Connection: keep-alive[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "X-Powered-By: Express[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Limit: 1000[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Remaining: 998[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Reset: 1651215686[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Vary: Origin, Accept-Encoding[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Access-Control-Allow-Credentials: true[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Cache-Control: max-age=43200[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Pragma: no-cache[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Expires: -1[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "X-Content-Type-Options: nosniff[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Etag: W/"a65-1/mRNOhrr+3bFpMuWj+OXmTpWLs"[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Content-Encoding: gzip[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Via: 1.1 vegur[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "CF-Cache-Status: REVALIDATED[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=arXxBDHLZ7a2iebL39IF39wbc1PKYBZsNWwtOn6LiR8IRosT9xBdZcqVG5aetd2Y2FZxQA9o4ICJt846ezhqgGESNJUL286UuplqpsNcCZ%2FYn2fJL%2FoU6B7tVpmcDMija1aAY12LGeZ6bhk%2F5nkE"}],"group":"cf-nel","max_age":604800}[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Server: cloudflare[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "CF-RAY: 7045c694587b3319-CDG[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.impl.conn.DefaultClientConnection ) - Receiving response: HTTP/1.1 200 OK. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << HTTP/1.1 200 OK. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Date: Sun, 01 May 2022 04:29:22 GMT. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Content-Type: application/json; charset=utf-8. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Transfer-Encoding: chunked. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Connection: keep-alive. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << X-Powered-By: Express. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Limit: 1000. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Remaining: 998. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Reset: 1651215686. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Vary: Origin, Accept-Encoding. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Access-Control-Allow-Credentials: true. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Cache-Control: max-age=43200. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Pragma: no-cache. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Expires: -1. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << X-Content-Type-Options: nosniff. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Etag: W/"a65-1/mRNOhrr+3bFpMuWj+OXmTpWLs". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Content-Encoding: gzip. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Via: 1.1 vegur. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << CF-Cache-Status: REVALIDATED. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=arXxBDHLZ7a2iebL39IF39wbc1PKYBZsNWwtOn6LiR8IRosT9xBdZcqVG5aetd2Y2FZxQA9o4ICJt846ezhqgGESNJUL286UuplqpsNcCZ%2FYn2fJL%2FoU6B7tVpmcDMija1aAY12LGeZ6bhk%2F5nkE"}],"group":"cf-nel","max_age":604800}. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Server: cloudflare. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << CF-RAY: 7045c694587b3319-CDG. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.impl.client.DefaultHttpClient ) - Connection can be kept alive indefinitely. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder ) - Parsing response as: application/json; charset=utf-8. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "3ee[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d]V[0xc9]r[0xe4]6[0xc][0xbd][0xcf]W[0xa0]|[0x9e]C2[0xce][0xfe][0x7][0xf3][\r]Q[0xe]h[0x12][0xb6]Q%[0x92]2[0x97].[0xa7]R[0xf9][0xf7]<[0x90]RKV[0x1f][0xd2][0x7][0xdb][0xdd]2[0x89][0xe5]-[0x80][0xfe][0xfc]B[0xf4][0xf]~[0x88][0x9e]Z[0x91][0xfc][0xdd]?[0xfd]A[0xcf]_[0xc7][0x3][0xb5]/[0xdf]~\[0xbf]U[0xad][0xb3][0xe0][0xc1][0x13][0x97]E[0xb2][0xa6],[0x85][0x84]I[0x97][0xc2][0x81][0xae]inK[0xe5][0xaa][0x97]V($[0xaf][0x14]4j`zo[0xca]T4[0xd6][0xa7]5[0xcc]%[0xf9][0xbf]-J[0x96]E[0xe6][0x99]+[0xf1][0xac]8[0xe4]i[0xc9],Eb[0xd5][0x16][0xc8][0xa7][0x19][0xf1][0x3]n[0xa7])[0x16][0xf1]TSE[0x16][0xc4]D[0xf8][0x98]"i[0xe5][0xf7]&S[0x8c][0xfa][0xa6]3[0xcd]|[0xc1]q[0xe4][0x9d][0xa5]Te[0xa1][0xd2]b[0x1d]AH[0xae][0x12]U*[0xbd][0xa9][0xa3],[0xae][0x15][0x8e][0x1e]'[0xec])[0x87])V[0x9]K[0xca]L8Q%Jm[0xb8][0xf1][0xb1][0x88]G[0x82][0x1e][0xe5][0x9]U[0xff][0xfb][0xf5]A[0xfa]v[0x6]i$[0xb7][0xc6][0xad][0x9]b$[0x9c][0xb5]Z[0xec]Y[0x1d][0xca][0x1d][0xc0]D[0xe]g\$[0x15][0xfb][0x9f][0x15][0x4]h[0x81][0xc5][0x0][0xb8][0xb4][0xe2]tA[0x4]nu@[0x92]B[0xd4][0x1][0x6][0xe0]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "[0x6]L[0xb7][0xb2][0x85]3[0xae][0x1][0xc]$D[0x8e][0x1d][0x15]\%[0xae][0xc0][0x8d][0xc][0xdb]-"@D|[\r][0xfd]6I)[0xf2]`[0xcf][0xcf][0xe7][0x9e][0x3]h[0x10][0x2][0x97]W[0xd4]!4[0xc8][0x89]-[0xbc][0xb7][0xfb]>[0xaf][0xd0][0x90][0x9][0xa6]P[0x8b][0x1e]g[0xc5][0xea][0x2]F[0xaf][0x12][0xbd]N[0x11]W[0xc4][0x90][0xf3][0xc4][0xd9][0xbd]i[0x15]WSGr[0x1c][0xec][0x9][0xd0]s[0x1]J[0xf3][0x9c][0x0][0xb4][0xf1]7[0xa8]\[0xc5]c[0xc7]^[0xda][0xab]v[0x2]<[0xce]V[0xc3][0x14]4[0xd0]E[0xd8][0xca]+b87[0x88][0x10]`[0x98][0xc6]V[0xfe][0xa1][0xee][0xb2][0xa8]S+[0xee]A(~[0xba][0xf3]HC5]s[0xab]6wE[0xc2]6[0x1a][0x9d][0xfa]v[0xef][0x9]h2X[0x91][0xf2][0x1][0xd4]P[0xd7][0x14][0x7][0xc9][0xab][0xbb][0xca][0x10][\r]~Mq3[0x1c][0xb2][0xb8][0x14][0xad][0x15][0xb6][0xda]W[0xb0][0x87][0xa9][0xba]l"[0x8][0x1e][0xee]9[0xa8][0x1f][0x14]y}E[0xe8][0xa2][0x1]z3a[0x18][0x2][0x7]g{x1?[0xae][0xff][0x9f][0xcf][0x0][0x98][0xc2]P[0x4]j[0xf6][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "[0xf5]EWu[0xf0][0x87][0xea][0xcb][0xb9][0xef][0xc1][0xc1][0xb1][0xf][0x13][0xf9][0xe8][0xdd][0xce]wz[0x8d][0xb9][0xf5][0x8][0xea]jy[0x8a][0xe6][0x8c][0x9b]dV[0xb7][0xec]j[0x7][0x8e]#[0x82][0xe4][0xc]+[0xc6]T*|1[0xc5][0xfd]DW[0xce]P[0x8d][0xc]hqg/[0xf7][0xc1][0xd6]9[0xb7]n[0xa2][0x14]S[0x1d]R$[0xdf][0xf5][0xa7][0xe6][0xd3]s[0xd7][0xc0]^[0x8d]&[0xe9][0xa6][0x1b][0xe2][0xe8][0xf3]s[0xf8][0x86][0x9d][0xd1][0x15]Z[0xd9][0x90][0xd8][0x86]"D[0xcd][0x9f][0x90][0x0][0xb3]K[0x96]7[0xa0]`[0x9e]ZE`{[0xb4]h[0xa1][0xa7]x[0x14]79[0x0][0x6][0xea]gn[0x9e][0xfb][0xe0][0xdd]R[0x99] v[0x9c][0xc]y[0xd8][0xf5]Q@~=[0x3][0x2]$[0x8a][0x9a][0xe6]L[0xda][0x90][0xdb]f4[0xcb][0xd2][0x87][0xa3][0x99][0xe5][0xce][0xb]m[0xb8][0xf2][0xe6][0x99]1[0x6]m[0xa0].[0xc9]t[0xdb]L[0xa4][0x17][0xb5]>[0x92]s,[0xe]-Mq{d[0x98][0x8f]1:E[0xa4]Yfvp=[\r][0x87][0xf5][0x1]i[0xd9];=/[0xec][0xc0][0x3][0xb0]9[\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "[0xf0]6o[0xa3]8[0xd0][0xa3][0xdb]n[0xcb][0x92][0xd7][0xc2]4b[0x87]T[0x93][0xce][0x8e][0xef]Q[0xc3][0xf][0xa2][0xf5][0xdb][0xdd][0xe6][0x90][0x19][0xc3][0xe][0xb1][0x86]+[0x80][0x99]K[0xd9][0xe2][0x97]1[0x14][0xf6]i[0xd0][0x7][0xd8][0x19]7[[0x8][0xab][0xfa]2[0xf7]Q[0xd2][0x85][0xc8][0x9e][0x2]wk[0xc3][0x1][0xe3][0xc3]'[0x89][0xf4][0x9]a[0x90]\f<[0x1][0x84]Z[0xf6][0x15]b[0x4]v[0xb7]t,?[0xed][0xfa]}[0xe]a+[0xdd][0x4][0xbd][0x9a][0x8d]@[0xe2][0x83]0[0xfc]~[0x86]A[[0xc1][0xc4][0x17][0xfc][0x19]k[0xe0][0xc4][0x83]k[0xf3]b[0xab][0xee][0xdc]~g4[0xf0][0xab][0xed]4[0x9b]j[0x8c][0xd7][0x8c]N[0x97][0xe1][0xd2]'[0xe7][0xb6]&[0xc6]&[0xec]^[0x9b][0xe2][0xcd]l[0xd6][0xe6][0xf6][0x2][0xd2][0x13][0xf5]![0xd1][0xbf]b[0x85]l[0xb3][0x6][0x86]k^[0x7]t[0xb7][0x8c]J;[0x0][0x96][0xd1][0xdc][0xb5]B[0xfd][0x18][0x8][0xcf]?[0xdc][0xad][0x91][0xee][0x8f]spx[0xf8]E[0xb2][0x15]r7I[0xd7][0x91][0xdb]_>[0x9c][0xed][0x2],[0xc9]m[0xb5][0x1f][0x98][0xed]"Y_[0x8c][0xec][0xed][0x81][0xc6][0xea][0x9e][0xe2][0xe1][0xc][0x7][0xb3][0xeb][0xc0]_[0xcb]m[0xbb][0xf6]99[0xd6][6[0xd2][0x19]/n[0xe9][0xaa]^[0xcc][0x98][0xc7][0xe1]b[0x7]{[0xdf]_[0xfe][0xfa][0xf][0xd8]P[0xc7])e[\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "[0x0][0x0]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "0[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder ) - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] INFO   (TCs.API3TC ) -  Line 56:response node: https://jsonplaceholder.typicode.com/posts?userId=3. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.impl.conn.BasicClientConnectionManager ) - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1b410308. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.impl.conn.BasicClientConnectionManager ) - Connection can be kept alive indefinitely. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] INFO   (TCs.API3TC ) -  Line 61:The user posts list size: 10. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] INFO   (TCs.API3TC ) -  Line 74:list value is: 21. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] INFO   (TCs.API3TC ) -  Line 74:list value is: 22. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] INFO   (TCs.API3TC ) -  Line 74:list value is: 23. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] INFO   (TCs.API3TC ) -  Line 74:list value is: 24. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] INFO   (TCs.API3TC ) -  Line 74:list value is: 25. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] INFO   (TCs.API3TC ) -  Line 74:list value is: 26. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] INFO   (TCs.API3TC ) -  Line 74:list value is: 27. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] INFO   (TCs.API3TC ) -  Line 74:list value is: 28. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] INFO   (TCs.API3TC ) -  Line 74:list value is: 29. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] INFO   (TCs.API3TC ) -  Line 74:list value is: 30. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] INFO   (TCs.API3TC ) -  Line 79:All user posts ids in 1 - 100. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] INFO   (TCs.API3TC ) -  Line 95:TC02_GetUserPosts. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] INFO   (TCs.API3TC ) -  Line 103:The new post parameter is: {"Id":31,"title":"New Post Title","body":"New Post body for API Task","userId":3}. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.impl.conn.BasicClientConnectionManager ) - Get connection for route {s}->https://jsonplaceholder.typicode.com:443. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.impl.conn.DefaultClientConnectionOperator ) - Connecting to jsonplaceholder.typicode.com:443. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.client.protocol.RequestAddCookies ) - CookieSpec selected: ignoreCookies. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.client.protocol.RequestAuthCache ) - Auth cache not set in the context. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.client.protocol.RequestTargetAuthentication ) - Target auth state: UNCHALLENGED. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.client.protocol.RequestProxyAuthentication ) - Proxy auth state: UNCHALLENGED. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.impl.client.DefaultHttpClient ) - Attempt 1 to execute request. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.impl.conn.DefaultClientConnection ) - Sending request: POST /posts HTTP/1.1. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  >> "POST /posts HTTP/1.1[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  >> "Accept: */*[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  >> "Content-Length: 81[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  >> "Host: jsonplaceholder.typicode.com[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  >> "Connection: Keep-Alive[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  >> "Accept-Encoding: gzip,deflate[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  >> "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - >> POST /posts HTTP/1.1. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - >> Accept: */*. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - >> Content-Type: text/plain; charset=ISO-8859-1. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - >> Content-Length: 81. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - >> Host: jsonplaceholder.typicode.com. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - >> Connection: Keep-Alive. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - >> User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2). 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - >> Accept-Encoding: gzip,deflate. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  >> "{"Id":31,"title":"New Post Title","body":"New Post body for API Task","userId":3}". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "HTTP/1.1 201 Created[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Date: Sun, 01 May 2022 04:29:22 GMT[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Content-Type: application/json; charset=utf-8[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Content-Length: 15[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Connection: keep-alive[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "X-Powered-By: Express[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Limit: 1000[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Remaining: 998[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Reset: 1651379365[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Access-Control-Allow-Credentials: true[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Cache-Control: no-cache[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Pragma: no-cache[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Expires: -1[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Access-Control-Expose-Headers: Location[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Location: http://jsonplaceholder.typicode.com/posts/101[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "X-Content-Type-Options: nosniff[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Etag: W/"f-4jjw4Y8q22Yv1PV9m28FczJgjzk"[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Via: 1.1 vegur[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "CF-Cache-Status: DYNAMIC[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TPTmVgA1eRWyZfAOx6NbmNE9hpa%2B%2BdVegVQ8hyhv8mI8AV%2BlNb0uOG3EUrLiOuWtYxdlhFuIsY81QqwhSMgZw0%2Fd2P2Y%2FELFgPHOrwb9Gi%2Fq7gmZ9sC1jYD2Urhvbd0ice5cxhPqAWtz5eDAxqYr"}],"group":"cf-nel","max_age":604800}[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "Server: cloudflare[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "CF-RAY: 7045c697f9a2ee44-CDG[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.wire ) -  << "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.impl.conn.DefaultClientConnection ) - Receiving response: HTTP/1.1 201 Created. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << HTTP/1.1 201 Created. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Date: Sun, 01 May 2022 04:29:22 GMT. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Content-Type: application/json; charset=utf-8. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Content-Length: 15. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Connection: keep-alive. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << X-Powered-By: Express. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Limit: 1000. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Remaining: 998. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Reset: 1651379365. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Vary: Origin, X-HTTP-Method-Override, Accept-Encoding. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Access-Control-Allow-Credentials: true. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Cache-Control: no-cache. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Pragma: no-cache. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Expires: -1. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Access-Control-Expose-Headers: Location. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Location: http://jsonplaceholder.typicode.com/posts/101. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << X-Content-Type-Options: nosniff. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Etag: W/"f-4jjw4Y8q22Yv1PV9m28FczJgjzk". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Via: 1.1 vegur. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << CF-Cache-Status: DYNAMIC. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TPTmVgA1eRWyZfAOx6NbmNE9hpa%2B%2BdVegVQ8hyhv8mI8AV%2BlNb0uOG3EUrLiOuWtYxdlhFuIsY81QqwhSMgZw0%2Fd2P2Y%2FELFgPHOrwb9Gi%2Fq7gmZ9sC1jYD2Urhvbd0ice5cxhPqAWtz5eDAxqYr"}],"group":"cf-nel","max_age":604800}. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << Server: cloudflare. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << CF-RAY: 7045c697f9a2ee44-CDG. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.headers ) - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (org.apache.http.impl.client.DefaultHttpClient ) - Connection can be kept alive indefinitely. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder ) - Parsing response as: application/json; charset=utf-8. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder ) - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] INFO   (TCs.API3TC ) -  Line 107:The new post done successfully. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (freemarker.cache ) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (freemarker.cache ) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (freemarker.cache ) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (freemarker.cache ) - TemplateLoader.findTemplateSource("Extent.ftl"): Found. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:23] DEBUG  (freemarker.cache ) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ahmed/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl". 
+-------------------------------------------------------------------
+[2022-05-01 06:29:24] DEBUG  (freemarker.cache ) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:24] DEBUG  (freemarker.cache ) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:24] DEBUG  (freemarker.cache ) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:24] DEBUG  (freemarker.cache ) - TemplateLoader.findTemplateSource("Extent.ftl"): Found. 
+-------------------------------------------------------------------
+[2022-05-01 06:29:24] DEBUG  (freemarker.cache ) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ahmed/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl". 
+-------------------------------------------------------------------
+[2022-05-01 10:23:57] INFO   (TCs.API3TC ) -  Line 29:TC01_printUserEmail. 
+-------------------------------------------------------------------
+[2022-05-01 10:23:59] DEBUG  (org.apache.http.impl.conn.BasicClientConnectionManager ) - Get connection for route {s}->https://jsonplaceholder.typicode.com:443. 
+-------------------------------------------------------------------
+[2022-05-01 10:23:59] DEBUG  (org.apache.http.impl.conn.DefaultClientConnectionOperator ) - Connecting to jsonplaceholder.typicode.com:443. 
+-------------------------------------------------------------------
+[2022-05-01 10:23:59] DEBUG  (org.apache.http.client.protocol.RequestAddCookies ) - CookieSpec selected: ignoreCookies. 
+-------------------------------------------------------------------
+[2022-05-01 10:23:59] DEBUG  (org.apache.http.client.protocol.RequestAuthCache ) - Auth cache not set in the context. 
+-------------------------------------------------------------------
+[2022-05-01 10:23:59] DEBUG  (org.apache.http.client.protocol.RequestTargetAuthentication ) - Target auth state: UNCHALLENGED. 
+-------------------------------------------------------------------
+[2022-05-01 10:23:59] DEBUG  (org.apache.http.client.protocol.RequestProxyAuthentication ) - Proxy auth state: UNCHALLENGED. 
+-------------------------------------------------------------------
+[2022-05-01 10:23:59] DEBUG  (org.apache.http.impl.client.DefaultHttpClient ) - Attempt 1 to execute request. 
+-------------------------------------------------------------------
+[2022-05-01 10:23:59] DEBUG  (org.apache.http.impl.conn.DefaultClientConnection ) - Sending request: GET /users/8 HTTP/1.1. 
+-------------------------------------------------------------------
+[2022-05-01 10:23:59] DEBUG  (org.apache.http.wire ) -  >> "GET /users/8 HTTP/1.1[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:23:59] DEBUG  (org.apache.http.wire ) -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:23:59] DEBUG  (org.apache.http.wire ) -  >> "Accept: application/json[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:23:59] DEBUG  (org.apache.http.wire ) -  >> "Host: jsonplaceholder.typicode.com[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:23:59] DEBUG  (org.apache.http.wire ) -  >> "Connection: Keep-Alive[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:23:59] DEBUG  (org.apache.http.wire ) -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:23:59] DEBUG  (org.apache.http.wire ) -  >> "Accept-Encoding: gzip,deflate[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:23:59] DEBUG  (org.apache.http.wire ) -  >> "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:23:59] DEBUG  (org.apache.http.headers ) - >> GET /users/8 HTTP/1.1. 
+-------------------------------------------------------------------
+[2022-05-01 10:23:59] DEBUG  (org.apache.http.headers ) - >> Content-Type: application/json; charset=UTF-8. 
+-------------------------------------------------------------------
+[2022-05-01 10:23:59] DEBUG  (org.apache.http.headers ) - >> Accept: application/json. 
+-------------------------------------------------------------------
+[2022-05-01 10:23:59] DEBUG  (org.apache.http.headers ) - >> Host: jsonplaceholder.typicode.com. 
+-------------------------------------------------------------------
+[2022-05-01 10:23:59] DEBUG  (org.apache.http.headers ) - >> Connection: Keep-Alive. 
+-------------------------------------------------------------------
+[2022-05-01 10:23:59] DEBUG  (org.apache.http.headers ) - >> User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2). 
+-------------------------------------------------------------------
+[2022-05-01 10:23:59] DEBUG  (org.apache.http.headers ) - >> Accept-Encoding: gzip,deflate. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "HTTP/1.1 200 OK[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "Date: Sun, 01 May 2022 08:23:59 GMT[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "Content-Type: application/json; charset=utf-8[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "Transfer-Encoding: chunked[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "Connection: keep-alive[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "X-Powered-By: Express[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Limit: 1000[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Remaining: 956[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Reset: 1651130546[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "Vary: Origin, Accept-Encoding[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "Access-Control-Allow-Credentials: true[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "Cache-Control: max-age=43200[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "Pragma: no-cache[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "Expires: -1[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "X-Content-Type-Options: nosniff[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "Etag: W/"209-CXz5ZN8wf6UnQeLsUzX00Zh7L2g"[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "Via: 1.1 vegur[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "CF-Cache-Status: REVALIDATED[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wBis%2F7k5KhJLQs62nbErSqL2olMHLs1Qku0akFeKINz%2FmoX536uVszo%2BodGAbH5ABKmzwqwDhT%2FlB%2BhtfyYZuN3TzFS0wRwB%2B%2B8d1GAUMDPv3rUWZKmrjs1SoW76dgmULFvjZ6PxoFOXWJuhbyMd"}],"group":"cf-nel","max_age":604800}[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "Server: cloudflare[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "CF-RAY: 70471e430c2d3a47-CDG[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "Content-Encoding: gzip[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.impl.conn.DefaultClientConnection ) - Receiving response: HTTP/1.1 200 OK. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << HTTP/1.1 200 OK. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << Date: Sun, 01 May 2022 08:23:59 GMT. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << Content-Type: application/json; charset=utf-8. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << Transfer-Encoding: chunked. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << Connection: keep-alive. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << X-Powered-By: Express. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Limit: 1000. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Remaining: 956. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Reset: 1651130546. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << Vary: Origin, Accept-Encoding. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << Access-Control-Allow-Credentials: true. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << Cache-Control: max-age=43200. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << Pragma: no-cache. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << Expires: -1. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << X-Content-Type-Options: nosniff. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << Etag: W/"209-CXz5ZN8wf6UnQeLsUzX00Zh7L2g". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << Via: 1.1 vegur. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << CF-Cache-Status: REVALIDATED. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wBis%2F7k5KhJLQs62nbErSqL2olMHLs1Qku0akFeKINz%2FmoX536uVszo%2BodGAbH5ABKmzwqwDhT%2FlB%2BhtfyYZuN3TzFS0wRwB%2B%2B8d1GAUMDPv3rUWZKmrjs1SoW76dgmULFvjZ6PxoFOXWJuhbyMd"}],"group":"cf-nel","max_age":604800}. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << Server: cloudflare. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << CF-RAY: 70471e430c2d3a47-CDG. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << Content-Encoding: gzip. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.headers ) - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.impl.client.DefaultHttpClient ) - Connection can be kept alive indefinitely. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder ) - Parsing response as: application/json; charset=utf-8. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "150[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]E[0x90][0xcd]N[0xc3]0[0x10][0x84][0xef]y[0x8a][0x95][0xcf]4[0xea]O[0x9a]4=[0xd1][0x3]B[0x1c][0xa8][0x10][0x95][0xb8]"[0xd7]^[0x1a]#[0xdb][0x1b][0xd9][0xe]i[0xa8][0xfa][0xee][0xc8]N[0x1b]n+}3[0xbb];s[0xc9][0x0][0x98][0x92]l[0xb][0x9b][0x87]8Zn[0x90]m[0x81][0xed][0x95]hHs[0xf][0xef][0x9d]%[0xfd][0xe5]%[0x85][0xa0][0x1c]|[0xb0][0xa4][0xea]<[0xba][0xbb][0xf2][0x95][0x9f][0x95][0xc1][0xcf][0xbd]BK[0xfd][0x88][0xd1]p[0xa5]#;4[0xe8]z"[0xf9][0xe8][0xc8]sCV[0xe6][0x6]G[0x9][0x97][0xd2][0xa1][0xf7]l[0xb][0x97][0xc][0x0][0x80][0xf9][0xe0][0x10]C4=i[0xed]{r[0xa1][0x81]Cg[0x8c][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "[0xc9][0x10][0x15][0x9d][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "[0xe9][0xe2]![0xe]P-[0xeb];[0x11]*[0xc][0x11][0xec][0xb4][0x1a][0xf8][0x8f][0xc2][0xfe][0xe]~U+H&S[0xb1]^[0x94][0x93][0xe1][0x84]4][0x6]`[0x9a][0xa7][0xc3][0xb3]E[0x91][0xaf][0xea]z~SE`O#X[0xce][0xf3][0xaa][0xac]*[0x96][0xc0]5[0x3][0xb8][0xa6][0x14]mC6m_o[0xca][0xbc][0xa8]WyY[0x17]+8/[0x8a]q[0x7][0xeb][0xf1][0xe8]oOs1[0xd8][0xd0]`.[0xc8][0x8c]P[0x90]i[0xb9][0x1d][0xfe]+[0xb8]7[0xba];[0xc6]vC3[0xc0][0xb3][0xa3][0xae]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "[0x9d]R[0xf2] [0x9a][0xb7][0xc6]q[0x9f]T/[0xa6][0xd5]h[0xd0][0x6][0x94][0xe0]Q[0x90][0x95][0xdc][\r] [0xc8][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "l[0xa7][0xce][0x8e][0xb1]a[0x86]3[0xb4][0xfc][0xa8][0x11][0xf0][0x1c][0xd0]z[0x95][0xc6]Y[0xe0]J[0xa3][0xf3]1[0xd3]5[0xbb][0xfe][0x1][0xaf][0x1c][0xb2][0x12][0x9][0x2][0x0][0x0]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "0[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.wire ) -  << "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder ) - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] INFO   (TCs.API3TC ) -  Line 32:response node: https://jsonplaceholder.typicode.com/users/8. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.impl.conn.BasicClientConnectionManager ) - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2f37f1f9. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] DEBUG  (org.apache.http.impl.conn.BasicClientConnectionManager ) - Connection can be kept alive indefinitely. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] INFO   (TCs.API3TC ) -  Line 37The User Email is: Sherwood@rosamond.me
+------------------. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:00] INFO   (TCs.API3TC ) -  Line 53:TC02_GetUserPosts. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.impl.conn.BasicClientConnectionManager ) - Get connection for route {s}->https://jsonplaceholder.typicode.com:443. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.impl.conn.DefaultClientConnectionOperator ) - Connecting to jsonplaceholder.typicode.com:443. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.client.protocol.RequestAddCookies ) - CookieSpec selected: ignoreCookies. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.client.protocol.RequestAuthCache ) - Auth cache not set in the context. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.client.protocol.RequestTargetAuthentication ) - Target auth state: UNCHALLENGED. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.client.protocol.RequestProxyAuthentication ) - Proxy auth state: UNCHALLENGED. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.impl.client.DefaultHttpClient ) - Attempt 1 to execute request. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.impl.conn.DefaultClientConnection ) - Sending request: GET /posts?userId=8 HTTP/1.1. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  >> "GET /posts?userId=8 HTTP/1.1[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  >> "Accept: application/json[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  >> "Host: jsonplaceholder.typicode.com[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  >> "Connection: Keep-Alive[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  >> "Accept-Encoding: gzip,deflate[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  >> "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - >> GET /posts?userId=8 HTTP/1.1. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - >> Content-Type: application/json; charset=UTF-8. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - >> Accept: application/json. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - >> Host: jsonplaceholder.typicode.com. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - >> Connection: Keep-Alive. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - >> User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2). 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - >> Accept-Encoding: gzip,deflate. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "HTTP/1.1 200 OK[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Date: Sun, 01 May 2022 08:24:00 GMT[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Content-Type: application/json; charset=utf-8[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Transfer-Encoding: chunked[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Connection: keep-alive[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "X-Powered-By: Express[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Limit: 1000[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Remaining: 998[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Reset: 1651393467[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Vary: Origin, Accept-Encoding[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Access-Control-Allow-Credentials: true[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Cache-Control: max-age=43200[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Pragma: no-cache[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Expires: -1[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "X-Content-Type-Options: nosniff[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Etag: W/"aea-lpYzL25RMcJkeQwvkEZHosqux44"[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Content-Encoding: gzip[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Via: 1.1 vegur[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "CF-Cache-Status: MISS[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DVT6QmneMgTZPb0WpuhZaU8FLorL5mzE7BP4RocOdG7ERCQpKV%2B07usojTViI21gH%2FZEvYr%2BIrB1RNcKZHICTRvnRRfsbj3TyKZTRKoW0ktvVnFRvqgon%2Fy5uW8LV0xhfkGovX%2B1OcJT4SCLIjb%2F"}],"group":"cf-nel","max_age":604800}[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Server: cloudflare[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "CF-RAY: 70471e4a5a093a2f-CDG[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.impl.conn.DefaultClientConnection ) - Receiving response: HTTP/1.1 200 OK. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << HTTP/1.1 200 OK. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Date: Sun, 01 May 2022 08:24:00 GMT. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Content-Type: application/json; charset=utf-8. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Transfer-Encoding: chunked. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Connection: keep-alive. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << X-Powered-By: Express. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Limit: 1000. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Remaining: 998. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Reset: 1651393467. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Vary: Origin, Accept-Encoding. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Access-Control-Allow-Credentials: true. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Cache-Control: max-age=43200. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Pragma: no-cache. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Expires: -1. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << X-Content-Type-Options: nosniff. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Etag: W/"aea-lpYzL25RMcJkeQwvkEZHosqux44". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Content-Encoding: gzip. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Via: 1.1 vegur. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << CF-Cache-Status: MISS. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DVT6QmneMgTZPb0WpuhZaU8FLorL5mzE7BP4RocOdG7ERCQpKV%2B07usojTViI21gH%2FZEvYr%2BIrB1RNcKZHICTRvnRRfsbj3TyKZTRKoW0ktvVnFRvqgon%2Fy5uW8LV0xhfkGovX%2B1OcJT4SCLIjb%2F"}],"group":"cf-nel","max_age":604800}. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Server: cloudflare. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << CF-RAY: 70471e4a5a093a2f-CDG. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.impl.client.DefaultHttpClient ) - Connection can be kept alive indefinitely. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder ) - Parsing response as: application/json; charset=utf-8. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "3f2[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d]V[0xcb]r[0x1c]7[0xc][0xbc][0xfb]+X{[0xd6][0xc1][0xb1][0x1d][[0xf1][0x1f][0xe4][0x1b]2>pIHA[0xd5][0xc]9[0xe2]cK.[0x97][0xff]=[\r][0x90][0xf3][0x10]u[0xc8][0x1e][0xb6][0xa4][0x99]!At[0xa3][0xd1][0xe0]?[0x1f][0x8c][0xf9][0x85][0x9f]1[0x97][0x9a])[0xfd][0xed]/[0xdf][0xcd][0xe3]C{[0xc1][0xf2][0xf0][0xed][0x8f][0xfe]T[0xb8][0xcc][0x84][0x17][0x17]*[0x86]k.[0xd1][0xdc]([0xb0]][0x8c]<[0xcf]s][0x8c][0xad][0xc5]<[0xd5]g{[0xe9];[0xae][0xd1][0xff][0x94][\r][0xd1]9K[0xce][0x16]6[0xd6][0xf8]8[0xc7][0xc4][0xd7][0x9a][0xa7][0xc0][0xb9][0x90][0xc9][0x96]V2.[0x86]L[0xae]P[0xa9][0xc9][0xac][0xb3]ud[0x8b]!D[0xbc][0xc5][0xb9][0xae][0xc5]b[0x9d][0xee]#9l[\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "/[0x95][0xcd]K[0x8d][0xf8][0xb1][0xdd][0x96] ^[0xa2][0x84]-[0xc8][0x81][0xbd]Af[0xd8]M3#N.f[0xa5][0xf4]D[0x89][0x82][0xe7]|An[0xbf][0x1f][0xfe][0x17][0xf5][0xa7][0x11]u[0xe6]P[0xcc][0xbf][0xec][0xe][0x4]-[0xeb][0x97]j%k[0x8a][0xd9][0x84][0x18]p[0xf6][0x88][0x1e][0xb][0x16]sP [0xc9]{[0x9a][0x91] [0x1e]N[0xb8][0xa7]p[0xe][0xa7]T[0x82][0x87]D[0xd8]`[0xb3][0xa1]WJ[0x8e][0xc1][0x4][0xc7][0x0][0x16][0xec][0xcc][0x1a]V[0xf2]9[0x8][0x8][0xd8]M[0x82]>W[0xe4][0x8a][0x8][0x12]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "[0xc5]:W[0xb3]][0x84]p}}[0xa6][0x9a]^W[0xf2][0x88]j8[0xa0][0x96][0x5][0x4]7[0xce][0xee][0xe4][0xe8][0xf3][0xc8]QG[0x80]c[0x10]|[0x7])[0xd4]h[0xa9][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "-k[0xa7][0xce]^[0x1b][0x6]$k[0xcb][0xc8][0xd8]^[0xf5][0xc5][0xb8][0xba][0x8][0xa6]BA[0x13]~[0xc3][0xf8][0x9e][0xfc][0x9a]Qw[0xd0][0xd2][0x15][0x81][0xf]3;{[0x8d]S[0x10][0x2]DG[0xb]C[0xf][0xf6][0xbc]}[\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "-[0x1b][0xda][0x8e][0xc0]kR[0xad][0x88][0xc2]D[0xd2][0xc1][0xbc][0x81]sJj[0xff]7[0xb][0xc3]w[0x92][0xf5][0xe5]][0x1b][0x89]Dk[0xf0]dR+[0xeb]IY[0xad][0xe6][0xba][0xa0][0x98][0xc][0x11]g[0xbb]2*D[0xef]Z[0xb][0xc][0xa8][0xa4]H[0x12][0x7][0x9][0x8e]rV[0x9d]H[0x18][0xd5]l[0xeb][0xd2]),qFi[0xc1][0x8f]][0xb0][0xb2][0xf7][0x93] [0xc7][0x7][0xe0]f+m[0xb8],[0x88][0x88]}[0xb]Ku[0xf0][0xcd]>[0x87][0xd6][0xe2][0xa2][0xb7])\g[0x8b]&*[0xcc]Y[0xb9][0xc2]IX%[0x1d][0x19]e[0xcd]V[0xa6][\r][0xd0][0xa1][0xfa][0xe3][0x8c]F[0xbb][0xbd][0x93][0xb5]?G[0xd6]<?[0xc3]8[0x90] D%[0x95]U[0x1c][0xc2][0x92][0xb2]%[0xc0] ;W[0x0][0x9e][0xc3]H[0xd6][0x6]O[0xfa]T~q[0x9][0x82][0xa3][0xec]-$T[0xab]h[0xa8][0x99]Y[0x88]W,88[0xd8][0xaa]p[0x12][0x83]je[0x86][0xd8][0xc4]{[0x12][0xbc]l[0x9e]m[0xd9][0x9b]\[0x13]A[0x1f][0x83][0xcd]|[0x92][0xff][0xe6]UZ[0x9]-[0x1b][0xb4]{x[0xdd][0xae]l[0xeb]y[0xe5][0xec]P[0xdd][0x94][0x80][0xb2][0xd7][0xec]N[0xea][0xbe][0xbe][0xa3][0xee](y|zb'E[0xb4]^[0xcf][0x7][0x19]g[0x8b][0x1c]x[0x13][0x17][0x1][0xbb][0xdc][0x1d][0x9][0xad][0x13][0xb][0x8]iC[0xa0][0xb7][0x91][0xea][0xab][0x97][0x98][0xfa],8df,[0xc2][0xab][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "[0xa5][0xcd] [0xf]P%[0xb6][0x14][0xbc](B[0xa3][0xa1]0[0xf1]Nd[0xdf]Fd[0x83][0xec][0xa5]{x[0xb4]L[0x8d]?[0x0]S5T[0xed][0xf5]PQ8)`[0xf5][0xdc][0xd2][0xd2][0xd4][0xc5]Xb.[0xf2][0x17]6[0xd6][0xc][0xe5]lB*[0xa1])h[0xc][0xc7]^[0xc]V[0xfa][0xa2])K[0x7][0xdc][0xde]:'[0xd7][0xd8]u[0xb4][0xf9][0xb8][0xcd][0xc2][0xf][0x98][0xca]]s[0xaa][0xc][0x17]S[0xc2][0x16]~[0x93][0xd6][0x9a][0xe2][0x8d]=v[0xdf]I[0xd6][0xe3]H[0x96][0x1e][0xb8]%[0xa3]|51[0xde][0x90][0x81][0xbc]yW[0xfe][0x96][0xd1][0xa6]bu[0x9c][0xc3];W[0x16][0xa5][0x16]R[0xeb][0x5]?[0x19]^[0xc][0x11][0x9d][0x6]}[0xf][0xaf]&[0x85][0x15][0xed][0xaa]@[0xad]G[0xb4][0xf4][0x8d][0xd5]~[0x99]h-[0x84][0x8][0xf5][0xde]I[0xfd][0xd7][0x8]p[0xb5][0x90][0xda]8-t2[0xf4]Nn[\r][0xde]j$[0xd2][0x17][0xb2]G[0xd0]3_)[0xc5]>=C[0xe1][0x96]3[0xed]Sy/[0xb7][0xb8]sW9&0[0xa2][0xd1][0xab][0xa3][0x15]G[0xb6]Q[0xaf][0xe7]f[0xf2][0xf0][0x88][0xea][ [0xbd][0xc0]d-[0xc3][0xd1]3[0xbe]:[0xc6][0x90][0x16][0xf5]LaoO[0xa8][0xfa][0xec][0xcf][0x87][0xa0][0xe2][0x9d][0xec]<~[0x1c][0xd9]Q[0xaf][0x92][0xfc][0x91][0xa8]B[0xda][0xa6][0xa5][0xc8]M[0xfc]I[0x87][0x9a][0xf6][0xd0][0xc8][0x9]6[0xe0]d[0xdc][0xc5][0xac][0xb6]:W[0xbd][0xa5][0xf0]!MeTaZ[0xfd][0xd0]9;[0x98][0xa1]r[0xd6][0xb4][0xc8]f[0xd7][0xff][0x86]6[0x1f][0xe1][0xe0]-[0x1c][0xd4][0xd1];[0xe7]7)[\r]n[0x9a]\[0xba][0xb8]t[0xd0][0xe9][0xf5][0xe6]8[0xe3]m[0xa3]|[0xf8][0xf1][0x1f][[0xa8][0xe7]3[0xea][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "[0x0][0x0]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "0[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder ) - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] INFO   (TCs.API3TC ) -  Line 56:response node: https://jsonplaceholder.typicode.com/posts?userId=8. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.impl.conn.BasicClientConnectionManager ) - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1b410308. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.impl.conn.BasicClientConnectionManager ) - Connection can be kept alive indefinitely. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] INFO   (TCs.API3TC ) -  Line 61:The user posts list size: 10. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] INFO   (TCs.API3TC ) -  Line 74:list value is: 71. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] INFO   (TCs.API3TC ) -  Line 74:list value is: 72. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] INFO   (TCs.API3TC ) -  Line 74:list value is: 73. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] INFO   (TCs.API3TC ) -  Line 74:list value is: 74. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] INFO   (TCs.API3TC ) -  Line 74:list value is: 75. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] INFO   (TCs.API3TC ) -  Line 74:list value is: 76. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] INFO   (TCs.API3TC ) -  Line 74:list value is: 77. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] INFO   (TCs.API3TC ) -  Line 74:list value is: 78. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] INFO   (TCs.API3TC ) -  Line 74:list value is: 79. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] INFO   (TCs.API3TC ) -  Line 74:list value is: 80. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] INFO   (TCs.API3TC ) -  Line 79:All user posts ids in 1 - 100. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] INFO   (TCs.API3TC ) -  Line 95:TC02_GetUserPosts. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] INFO   (TCs.API3TC ) -  Line 103:The new post parameter is: {"Id":81,"title":"New Post Title","body":"New Post body for API Task","userId":8}. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.impl.conn.BasicClientConnectionManager ) - Get connection for route {s}->https://jsonplaceholder.typicode.com:443. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.impl.conn.DefaultClientConnectionOperator ) - Connecting to jsonplaceholder.typicode.com:443. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.client.protocol.RequestAddCookies ) - CookieSpec selected: ignoreCookies. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.client.protocol.RequestAuthCache ) - Auth cache not set in the context. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.client.protocol.RequestTargetAuthentication ) - Target auth state: UNCHALLENGED. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.client.protocol.RequestProxyAuthentication ) - Proxy auth state: UNCHALLENGED. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.impl.client.DefaultHttpClient ) - Attempt 1 to execute request. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.impl.conn.DefaultClientConnection ) - Sending request: POST /posts HTTP/1.1. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  >> "POST /posts HTTP/1.1[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  >> "Accept: */*[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  >> "Content-Type: text/plain; charset=ISO-8859-1[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  >> "Content-Length: 81[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  >> "Host: jsonplaceholder.typicode.com[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  >> "Connection: Keep-Alive[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2)[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  >> "Accept-Encoding: gzip,deflate[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  >> "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - >> POST /posts HTTP/1.1. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - >> Accept: */*. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - >> Content-Type: text/plain; charset=ISO-8859-1. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - >> Content-Length: 81. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - >> Host: jsonplaceholder.typicode.com. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - >> Connection: Keep-Alive. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - >> User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.2). 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - >> Accept-Encoding: gzip,deflate. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  >> "{"Id":81,"title":"New Post Title","body":"New Post body for API Task","userId":8}". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "HTTP/1.1 201 Created[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Date: Sun, 01 May 2022 08:24:01 GMT[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Content-Type: application/json; charset=utf-8[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Content-Length: 15[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Connection: keep-alive[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "X-Powered-By: Express[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Limit: 1000[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Remaining: 997[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "X-Ratelimit-Reset: 1651393467[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Vary: Origin, X-HTTP-Method-Override, Accept-Encoding[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Access-Control-Allow-Credentials: true[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Cache-Control: no-cache[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Pragma: no-cache[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Expires: -1[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Access-Control-Expose-Headers: Location[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Location: http://jsonplaceholder.typicode.com/posts/101[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "X-Content-Type-Options: nosniff[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Etag: W/"f-4jjw4Y8q22Yv1PV9m28FczJgjzk"[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Via: 1.1 vegur[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "CF-Cache-Status: DYNAMIC[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BkkCgV2Qc1i%2FjtDwcDG7dMAu3a00MCDE1s5WO6CWWF2T5ALvk%2BhROAb1MZvVmqURYSHjL%2F6ljWDTzcDDKggyU6AlLa22ycX%2Fb24%2By8sWC91FJ2kti6uq9iTJxtFb2B7EHvKXolwZKsrBzzPMI1m3"}],"group":"cf-nel","max_age":604800}[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "Server: cloudflare[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "CF-RAY: 70471e4d68ba0818-CDG[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.wire ) -  << "[\r][\n]". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.impl.conn.DefaultClientConnection ) - Receiving response: HTTP/1.1 201 Created. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << HTTP/1.1 201 Created. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Date: Sun, 01 May 2022 08:24:01 GMT. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Content-Type: application/json; charset=utf-8. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Content-Length: 15. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Connection: keep-alive. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << X-Powered-By: Express. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Limit: 1000. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Remaining: 997. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << X-Ratelimit-Reset: 1651393467. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Vary: Origin, X-HTTP-Method-Override, Accept-Encoding. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Access-Control-Allow-Credentials: true. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Cache-Control: no-cache. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Pragma: no-cache. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Expires: -1. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Access-Control-Expose-Headers: Location. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Location: http://jsonplaceholder.typicode.com/posts/101. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << X-Content-Type-Options: nosniff. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Etag: W/"f-4jjw4Y8q22Yv1PV9m28FczJgjzk". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Via: 1.1 vegur. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << CF-Cache-Status: DYNAMIC. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BkkCgV2Qc1i%2FjtDwcDG7dMAu3a00MCDE1s5WO6CWWF2T5ALvk%2BhROAb1MZvVmqURYSHjL%2F6ljWDTzcDDKggyU6AlLa22ycX%2Fb24%2By8sWC91FJ2kti6uq9iTJxtFb2B7EHvKXolwZKsrBzzPMI1m3"}],"group":"cf-nel","max_age":604800}. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << Server: cloudflare. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << CF-RAY: 70471e4d68ba0818-CDG. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.headers ) - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (org.apache.http.impl.client.DefaultHttpClient ) - Connection can be kept alive indefinitely. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder ) - Parsing response as: application/json; charset=utf-8. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] DEBUG  (io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder ) - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:01] INFO   (TCs.API3TC ) -  Line 107:The new post done successfully. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:02] DEBUG  (freemarker.cache ) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:02] DEBUG  (freemarker.cache ) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:02] DEBUG  (freemarker.cache ) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:02] DEBUG  (freemarker.cache ) - TemplateLoader.findTemplateSource("Extent.ftl"): Found. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:02] DEBUG  (freemarker.cache ) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ahmed/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl". 
+-------------------------------------------------------------------
+[2022-05-01 10:24:02] DEBUG  (freemarker.cache ) - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:02] DEBUG  (freemarker.cache ) - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:02] DEBUG  (freemarker.cache ) - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:02] DEBUG  (freemarker.cache ) - TemplateLoader.findTemplateSource("Extent.ftl"): Found. 
+-------------------------------------------------------------------
+[2022-05-01 10:24:02] DEBUG  (freemarker.cache ) - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ahmed/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl". 
